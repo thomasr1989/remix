@@ -225,19 +225,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "nextMint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "nMint",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -360,6 +347,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setMintPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "bool",
 						"name": "_pause",
 						"type": "bool"
@@ -453,19 +453,6 @@
 					}
 				],
 				"name": "transferOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "updateMintPrice",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -662,11 +649,11 @@
 			]
 		},
 		"contracts/AngryVeg.sol": {
-			"keccak256": "0xfa6432151267d2e876e710941fdaf73f75d90366306a77422da1bbc4a24b4694",
+			"keccak256": "0x76f0e444734e76ff3ccbc8320ee28c48e6105775e7fcc9d8be86fbd59dccadad",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9c395bd17cf300c73b891848bcca6fc619f8d4bfa3847ceae14d540ffd1fee3b",
-				"dweb:/ipfs/QmZ7nPm9mqhCoxr2U1AsZgZfiBt6RtSLsVHh83QZMQ5CGE"
+				"bzz-raw://241e0214a870f46ed876dbf2ee8959dfb322c8a5ba1007f863b06b2604cfdbc5",
+				"dweb:/ipfs/QmUGpL9aGvWoN64oyLQczpWb7En8h7XfyKsQnaVg3PiPvL"
 			]
 		}
 	},
